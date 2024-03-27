@@ -1,0 +1,51 @@
+<!-- wp:template-part {"slug":"header","theme":"pub/archeo","tagName":"header"} /-->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" />
+<!-- /wp:separator -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:media-text {"align":"wide","mediaId":114,"mediaLink":"https://shahnawaz.data.blog/about-me-2/1702675497539-1/","mediaType":"image","mediaWidth":40} -->
+<div class="wp-block-media-text alignwide is-stacked-on-mobile" style="grid-template-columns:40% auto"><figure class="wp-block-media-text__media"><img src="https://shahnawazdata.files.wordpress.com/2023/12/1702675497539-1.png" alt="" class="wp-image-114 size-full" /></figure><div class="wp-block-media-text__content"><!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Mohd Shahnawaz Aadil</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>IBM Certified Data Scientist Data Science Undergrad at IIT Madras &amp; LIET Hyderabad | Data Science Intern at InternshipStudio | Vice President at Lions Club of Mehdipatnam</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"width":100,"className":"is-style-outline"} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://shahnawazdata.files.wordpress.com/2024/02/resume-.pdf" target="_blank" rel="noreferrer noopener">Resume</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:media-text --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide" />
+<!-- /wp:separator -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Categories</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:categories /--></div>
+<!-- /wp:group -->
+
+<!-- wp:spacer {"height":"20px"} -->
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"100%","style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"fontSize":"small"} -->
+<div class="wp-block-column has-small-font-size" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);flex-basis:100%"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Latest Posts</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:latest-posts {"displayPostContent":true,"excerptLength":25,"displayAuthor":true,"displayPostDate":true,"postLayout":"grid","displayFeaturedImage":true,"featuredImageSizeWidth":0,"featuredImageSizeHeight":0} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:template-part {"slug":"footer","theme":"pub/archeo","tagName":"footer","area":"footer"} /-->
