@@ -1,0 +1,96 @@
+datasetNo,indexOfdf,Id,ColumnName,Original,Modified,ErrorType,Fixing
+dataset1,2108,REV170369,Section,Genral,General,Misspelling,Corrected the Section label using similarity with an established category label.
+dataset1,6211,REV187711,Section,General Petitte,General Petite,Misspelling,Corrected the Section label using similarity with an established category label.
+dataset1,1165,REV251730,Department,Dressess,Dresses,Misspelling,Corrected the Department label using similarity with an established category label.
+dataset1,2607,REV192893,Department,Dressess,Dresses,Misspelling,Corrected the Department label using similarity with an established category label.
+dataset1,3461,REV517106,Department,Top,Tops,Misspelling,Corrected the Department label using similarity with an established category label.
+dataset1,564,REV564987,Category,Sweeters,Sweaters,Misspelling,Corrected the Category label using similarity with an established category label.
+dataset1,4822,REV965577,Category,Skrits,Skirts,Misspelling,Corrected the Category label using similarity with an established category label.
+dataset1,5202,REV111158,Category,Blouess,Blouses,Misspelling,Corrected the Category label using similarity with an established category label.
+dataset1,120,REV985753,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,225,REV576659,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,318,REV237248,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,496,REV740438,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,573,REV183119,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,765,REV443189,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,812,REV401514,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,1429,REV855226,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,1455,REV187135,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,1859,REV440883,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,2295,REV107602,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,2353,REV593641,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,2617,REV169118,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,3531,REV120003,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,3762,REV938900,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,4623,REV259116,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,4755,REV193987,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,4850,REV721164,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,5017,REV214429,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,5240,REV148876,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,5385,REV439579,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,5545,REV594075,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,5644,REV955644,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,5746,REV788095,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,6174,REV175549,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,6196,REV104012,Review Title,,No title provided,Missing Value,Converted the blank review title to the existing dataset placeholder.
+dataset1,2699,REV645619,Customer Rating,5 stars,5,Invalid Format,Standardised the non-canonical Customer Rating representation.
+dataset1,4049,REV449723,Customer Rating,3/5,3,Invalid Format,Standardised the non-canonical Customer Rating representation.
+dataset1,5347,REV402585,Customer Rating,Rating: 4,4,Invalid Format,Standardised the non-canonical Customer Rating representation.
+dataset1,5599,REV282929,Customer Rating,four,4,Invalid Format,Standardised the non-canonical Customer Rating representation.
+dataset1,88,REV534558,Positive Review Count,5 reviews,5.0,Invalid Format,Standardised the non-canonical Positive Review Count representation.
+dataset1,2338,REV953644,Positive Review Count,1 review,1.0,Invalid Format,Standardised the non-canonical Positive Review Count representation.
+dataset1,3348,REV224969,Positive Review Count,unknown,,Missing Value,The Positive Review Count value was recorded as unknown and was treated as missing.
+dataset1,3774,REV977840,Online Time,2 min,120.0,Invalid Format,Standardised the non-canonical Online Time representation.
+dataset1,4192,REV123912,Online Time,120 sec,120.0,Invalid Format,Standardised the non-canonical Online Time representation.
+dataset1,4222,REV254941,Online Time,00:03:30,210.0,Invalid Format,Standardised the non-canonical Online Time representation.
+dataset1,779,REV751722,Cost,unknown,,Missing Value,The Cost value was recorded as unknown and was treated as missing.
+dataset1,944,REV283745,Age,-1.0,,Integrity Constraint Violation,"Age must be a positive integer, so the invalid value was treated as missing."
+dataset1,1863,REV708275,Age,0.0,,Integrity Constraint Violation,"Age must be a positive integer, so the invalid value was treated as missing."
+dataset1,1799,REV827623,Cost,-1.0,,Integrity Constraint Violation,"Cost must be a positive decimal value, so the invalid value was treated as missing."
+dataset1,2148,REV431155,Cost,-1.0,,Integrity Constraint Violation,"Cost must be a positive decimal value, so the invalid value was treated as missing."
+dataset1,5105,REV489895,Cost,0.0,,Integrity Constraint Violation,"Cost must be a positive decimal value, so the invalid value was treated as missing."
+dataset1,2703,REV579478,Age,999.0,,Outlier,"The value is an extreme and implausible age for the review dataset, so it was treated as missing before imputation."
+dataset1,2898,REV415381,Age,150.0,,Outlier,"The value is an extreme and implausible age for the review dataset, so it was treated as missing before imputation."
+dataset1,588,REV470887,Cost,9999.0,,Outlier,"The value is an extreme price compared with the observed clothing-price data, so it was treated as missing before imputation."
+dataset1,785,REV862836,"Recommended IND,Recommendation_Label","0,Recommended","0,Not Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,1135,REV168811,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,1828,REV989219,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,2748,REV284937,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,4143,REV220487,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,5121,REV404745,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,5187,REV781384,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,5630,REV971702,"Recommended IND,Recommendation_Label","1,Not Recommended","1,Recommended",Inconsistent Label,Recommended IND was retained because it is part of the required source schema. The conflicting helper label was corrected before the helper column was removed.
+dataset1,357,REV533274,Age,,37.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,944,REV283745,Age,-1,26.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,961,REV703980,Age,,37.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,1667,REV869406,Age,,51.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,1863,REV708275,Age,0,51.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,1867,REV333807,Age,,65.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,1916,REV594351,Age,,65.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,2336,REV534478,Age,,37.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,2703,REV579478,Age,999,51.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,2898,REV415381,Age,150,51.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,2917,REV460812,Age,,51.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,3707,REV377109,Age,,26.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,5068,REV988182,Age,,51.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,5571,REV827177,Age,,37.0,Missing Value,Imputed the missing Age using the Reviewer_Age_Group median.
+dataset1,588,REV470887,Cost,9999,73.65,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,779,REV751722,Cost,unknown,93.07,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,1366,REV817143,Cost,,72.72,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,1799,REV827623,Cost,-1,75.86,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,2148,REV431155,Cost,-1,70.15,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,2330,REV461108,Cost,,34.65,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,2667,REV834501,Cost,,86.93,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,3016,REV918601,Cost,,77.06,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,3788,REV920546,Cost,,76.18,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,4776,REV446345,Cost,,76.05,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,4927,REV130150,Cost,,47.9,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,5105,REV489895,Cost,0,73.64,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,5469,REV675631,Cost,,42.2,Missing Value,Imputed the missing Cost using the ClothID median.
+dataset1,3348,REV224969,Positive Review Count,unknown,1.0,Missing Value,Imputed the missing Positive Review Count using the median.
+dataset1,5435,REV317338,ALL,Duplicate ReviewID; retained original index 512,ROW DELETED,Duplicate Record,ReviewID was used as the candidate key. The duplicate with the lower domain-validity score was removed.
+dataset1,3014,REV171671,ALL,Duplicate ReviewID; retained original index 1714,ROW DELETED,Duplicate Record,ReviewID was used as the candidate key. The duplicate with the lower domain-validity score was removed.
+dataset1,5675,REV827623,ALL,Duplicate ReviewID; retained original index 1799,ROW DELETED,Duplicate Record,ReviewID was used as the candidate key. The duplicate with the lower domain-validity score was removed.
+dataset1,2937,REV504963,ALL,Duplicate ReviewID; retained original index 2203,ROW DELETED,Duplicate Record,ReviewID was used as the candidate key. The duplicate with the lower domain-validity score was removed.
+dataset1,3348,REV224969,ALL,Duplicate ReviewID; retained original index 2584,ROW DELETED,Duplicate Record,ReviewID was used as the candidate key. The duplicate with the lower domain-validity score was removed.
+dataset1,5017,REV214429,ALL,Duplicate ReviewID; retained original index 3959,ROW DELETED,Duplicate Record,ReviewID was used as the candidate key. The duplicate with the lower domain-validity score was removed.
